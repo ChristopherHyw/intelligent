@@ -16,3 +16,8 @@ while d <= end_date:
     else:
         delta = datetime.timedelta(days=calendar.monthrange(d.year, (d.month + 1))[1])
         d += delta
+
+
+
+def print_str():
+    print("str")
